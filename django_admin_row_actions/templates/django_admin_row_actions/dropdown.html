@@ -1,5 +1,5 @@
 {%  load static %}
-<a href="#" data-jq-dropdown="#jq-dropdown-{{ dom_id }}">{{ label }}&nbsp;<span class="jq-dropdown-caret"></span></a>
+<a href="#" data-jq-dropdown="#jq-dropdown-{{ dom_id }}" class="jq-style">{{ label }}&nbsp;<span class="jq-dropdown-caret"></span></a>
 <div id="jq-dropdown-{{ dom_id }}" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative">
     <ul class="jq-dropdown-menu">
         {% for item in items %}
