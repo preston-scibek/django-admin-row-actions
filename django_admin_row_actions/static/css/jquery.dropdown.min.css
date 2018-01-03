@@ -1,3 +1,14 @@
+a.jq-style {
+    background-color: buttonface;
+    margin: 2px 0;
+    padding: 2px 3px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 6px;
+    margin-top: 0;
+}
+
 .jq-dropdown {
     position: absolute;
     z-index: 1039;
