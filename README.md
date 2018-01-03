@@ -5,22 +5,16 @@ Allows you to easily define a drop-down 'actions' menu that is appended as the f
 
 Menu items can call urls or methods, can be disabled, have tooltips, etc.
 
-I've extracted this from code written for http://hireablehq.com/. The admin there has Bootstrap available but I've modified this version to use a standalone jQuery dropdown.
 
 
 Installation
 ============
 
-1. Install from PyPI:
+1. 
+    Install using pip and git:
 
     ```bash
-    pip install django-admin-row-actions
-    ```
-
-    or install using pip and git:
-
-    ```bash
-    pip install git+https://github.com/DjangoAdminHackers/django-admin-row-actions.git
+    pip install git+https://github.com/preston-scibek/django-admin-row-actions.git
     ```
 
 2. Add to INSTALLED_APPS:
